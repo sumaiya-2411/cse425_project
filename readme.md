@@ -3,7 +3,8 @@ This repository contains the source code for our Neural Networks CSE425 coursewo
 
 Our team built a hybrid machine learning system combining BERT (for text) and Graph Neural Networks (for audio structure) to deeply understand musical context. Unlike standard generative models, this project focuses on understanding and prediction, including multi-label tagging, emotion regression, and cross-modal alignment between audio and text.
 
-Team Members
+Project By
+
 Sumaiya Tasnim Khan
 
 Project Roadmap & Tasks

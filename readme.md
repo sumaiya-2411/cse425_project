@@ -43,27 +43,27 @@ gnn-bert-music-context/
 ├── config.yaml
 │
 ├── data/
-│   ├── raw/                 # FMA, GTZAN, MusicCaps downloads
-│   ├── processed/           # .pt graphs, mel-spec, BERT caches
-│   └── splits/              # train/val/test JSON
+│   ├── raw/                  # FMA, GTZAN, MusicCaps downloads
+│   ├── processed/            # .pt graphs, mel-spec, BERT caches
+│   └── splits/               # train/val/test JSON
 │
 ├── notebooks/
 │   ├── eda.ipynb
-│   └── demo_context.ipynb   # End-to-end inference example
+│   └── demo_context.ipynb    # End-to-end inference example
 │
 ├── src/
-│   ├── audio_features.py    # mel, chroma, segmentation
-│   ├── graph_builder.py     # chord + segment graphs
+│   ├── audio_features.py     # mel, chroma, segmentation
+│   ├── graph_builder.py      # chord + segment graphs
 │   ├── bert_encoder.py
-│   ├── gnn_model.py         # GraphSAGE
-│   ├── fusion_model.py      # cross-attention GNN-BERT
-│   ├── contrastive.py       # Task 4 InfoNCE
+│   ├── gnn_model.py          # GraphSAGE
+│   ├── fusion_model.py       # cross-attention GNN-BERT
+│   ├── contrastive.py        # Task 4 InfoNCE
 │   ├── train.py
 │   └── evaluate.py
 │
 ├── results/
 │   ├── metrics.json
-│   ├── plots/               # t-SNE, AUC-PR, F1 curves
+│   ├── plots/                # t-SNE, AUC-PR, F1 curves
 │   └── retrieval_examples/
 │
 └── report/

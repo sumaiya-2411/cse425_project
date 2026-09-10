@@ -34,10 +34,12 @@ Learned a shared embedding space between audio graphs and natural-language descr
 
 <h1><b>Repository Structure </b></h1>
 
+
+
 The repository is structured according to the project specifications:
 
+```text
 gnn-bert-music-context/
-│
 ├── README.md
 ├── requirements.txt
 ├── config.yaml
